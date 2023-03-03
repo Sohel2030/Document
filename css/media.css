@@ -1,0 +1,115 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	
+    h1{
+        font-size:20px  ;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    h6{
+        font-size: 15px;
+    }
+    
+   
+    
+    .common-margin{
+        margin: 60px 0px;
+    }
+/* common coding end  */
+
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1{
+        font-size:20px  ;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    h6{
+        font-size: 15px;
+    }
+  
+    
+    .common-margin{
+        margin: 60px 0px;
+    }
+    /* common coding end  */
+    
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .common-margin{
+        margin: 80px 0px;
+    }
+    
+/* banner start  */
+.banner{
+    background-color: #2e71f2;
+    color: white;
+    text-align: center;
+}
+.c-carousel{
+    padding: 100px 0;
+}
+.banner-txt{
+
+}
+.banner-txt h6{
+    margin-bottom: 10px;
+}
+.banner-txt h1{
+    line-height: 30px;
+   
+}
+.banner-txt span{ 
+}
+
+.carousel-indicators{
+    
+}
+.carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+/* banner end  */
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/*Extra extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+
+}
